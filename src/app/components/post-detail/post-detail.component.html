@@ -1,0 +1,38 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="post-detail.component.css">    
+</head>
+<body>
+
+    <div class="header">
+        <h1>ScreenScore</h1>
+        <div class="logout"><a href="/post">Back</a></div>
+        
+    </div>
+
+    <div class="container1">
+       
+       
+        <h3>{{post?.title}}</h3>
+        
+        <div class="body1">
+            <p >{{post?.body}}</p>
+        </div>
+        <p>Posted by {{post?.firstName}} {{post?.lastName}}; on {{post?.dateCreated}}</p>
+       
+
+    </div>
+
+    
+        
+    
+</body>
+</html>

@@ -1,0 +1,34 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="list-posts.component.css">    
+</head>
+<body>
+
+    <div class="header">
+        <h1>ScreenScore</h1>
+        <div class="logout"><a href="localhost:4200">Logout</a></div>
+        
+    </div>
+
+    <div class="container1">
+        <div *ngFor="let post of posts" class="box1">
+
+            <h3><a href="/Post/{{post.id}}">{{post.title}}</a></h3>
+            <p>Movie Review by {{ post.firstName }} {{post.lastName}} on {{post.dateCreated}}</p>
+            
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>

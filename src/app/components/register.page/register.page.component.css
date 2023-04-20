@@ -1,0 +1,82 @@
+.header 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E40004;
+    color: white;
+    padding: 0em 3em 0em;
+}
+h1
+{
+    color: white;
+    font-size: 3em;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+}
+
+.container1
+{
+    display: grid;
+    place-items: center;
+    height: 94vh;
+    
+}
+
+.form
+{
+    background-color: white;
+    display: grid;
+    place-items: center;
+    
+    padding: 7em;
+}
+
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+}
+.container1
+{
+    background-image: url(bg1.jpg);
+}
+
+label
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: black;
+}
+
+.form p
+{
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.box
+{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    
+}
+
+input
+{
+    width: 200px;
+    height: 30px;
+}
+
+button
+{
+    border: none;
+    background-color: #040B1B;
+    color: white;font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    padding: 1em;
+}

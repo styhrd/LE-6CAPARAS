@@ -1,0 +1,61 @@
+.header 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E40004;
+    color: white;
+    padding: 0em 3em 0em;
+}
+.logout a
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+}
+
+h1
+{
+    color: white;
+    font-size: 3em;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+}
+
+.box1
+{
+    padding: 1em 2em 1em;
+    background-color:white;
+    color: white;
+   
+}
+
+.box1 p
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: #040D1C;
+}
+
+.container1
+{
+    background-image: url('bg1.jpg');
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    padding: 100px;
+}
+
+h3 a
+{
+    color:#E40004;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+    font-size: 5em;
+}
+
+
+/*font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto', sans-serif;*/

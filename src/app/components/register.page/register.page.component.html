@@ -1,0 +1,59 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="register.page.component.css">    
+</head>
+<body>
+
+    <div class="header">
+        <h1>ScreenScore</h1>
+        
+    </div>
+
+    <div class="container1">
+        <div class="form">
+            <p>Register</p>
+            <form name="form" (ngSubmit)="onSubmit()" #f="ngForm">
+                
+                <div class="box">
+                    <label for="username">Username &nbsp;</label>
+                    <input type="text" name="username" [(ngModel)]="form.username" required #username="ngModel"/>
+                </div>
+                
+                <div class="box">
+                    <label for="password">Password &nbsp;</label>
+                <input type="text" name="password" [(ngModel)]="form.password" required #password="ngModel"/>
+                </div>
+                <div class="box">
+                    <label for="firstName">First Name</label>
+                <input type="text" name="firstName" [(ngModel)]="form.firstName" required #firstName="ngModel"/>
+                </div>
+                <div class="box">
+                    <label for="lastName">Last Name</label>
+                <input type="lastName" name="lastName" [(ngModel)]="form.lastName" required #lastName="ngModel"/>
+                </div>
+                
+                <button>Signup</button>
+            </form>
+            
+        </div>
+       
+        
+    </div>
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login-page.component.css">    
+</head>
+<body>
+
+    <div class="header">
+        <h1>ScreenScore</h1>
+    </div>
+    <div class="container1">
+        <div class="login">
+        
+            <h3>Login</h3>
+            <form name="form" (ngSubmit)="onsubmit()" #f="ngForm" novalidate>
+                <div class="box">
+                    <label for="username">Email</label>
+                    <input required type="text" name="username" [(ngModel)]="form.username" #username="ngModel">  
+                </div>
+                <br>
+                <div class="box">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" [(ngModel)]="form.password" required #password="ngModel">
+                </div>
+                <br>   
+                <button>Submit</button>
+            </form>
+            <div class="regis">
+                <a href="/register-page">Register</a>
+            </div>
+            
+        </div>
+    </div>
+    
+    
+
+</body>
+</html>
